@@ -7,4 +7,7 @@ def hello():
   print("hello,", name)
 
 
+def hello():
+  print("hello, dummy")
+
 main()
