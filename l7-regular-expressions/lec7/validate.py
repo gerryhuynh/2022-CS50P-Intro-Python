@@ -2,7 +2,7 @@ import re
 
 email = input("What's your email? ").strip()
 
-if re.search("^\w+@\w+\.(com|edu|gov|net|org)$", email, re.IGNORECASE):
+if re.search("^\w+@(\w+\.)?\w+\.edu$", email, re.IGNORECASE):
   print("Valid")
 else:
   print("Invalid")
