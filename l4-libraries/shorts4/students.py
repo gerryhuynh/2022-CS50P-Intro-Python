@@ -1,3 +1,7 @@
+"""
+Prints students' names.
+"""
+
 students = {
     "Hermione": "Gryffindor",
     "Harry": "Gryffindor",
