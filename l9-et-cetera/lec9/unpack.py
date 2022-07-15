@@ -3,4 +3,4 @@ def total(galleons, sickles, knuts):
 
 coins = {"galleons": 100, "sickles": 50, "knuts": 25}
 
-print(total(coins["galleons"], coins["sickles"], coins["knuts"]), "Knuts")
+print(total(**coins), "Knuts")
